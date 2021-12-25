@@ -6,7 +6,7 @@ import javax.validation.constraints.Size;
 
 public class InquiryFormkw {
   
-  @Size(min = 1, max=20, message = "Please Input 20 charactors or less")
+  @Size(min = 1, max=21, message = "Please Input 20 charactors or less")
   private String name;
   
   @NotNull
