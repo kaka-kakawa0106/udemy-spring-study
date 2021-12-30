@@ -29,7 +29,7 @@ public class WebMvcControllerAdvice {
 	
 	@ExceptionHandler(InquiryNotFoundException.class)
 	public String handleException(InquiryNotFoundException e,Model model) {
-		model.addAttribute("message", e);
+		model.addAttribute("message", e );
 		return "error/CustomPage";
 	}
    
